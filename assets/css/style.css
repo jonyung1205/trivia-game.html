@@ -1,0 +1,40 @@
+  body {
+    background:
+      url(geography_wallpaper.jpg) repeat;
+    background-image: url("../images/geography_wallpaper.jpg");
+    background-size: cover;
+  }
+
+  h1 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  #questionSection {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  #results-page {
+    margin-top: 50px;
+    font-size: 40px;
+    max-width: 450px;
+    margin: auto;
+  }
+
+  #countdownTimer {
+    margin-top: 50px;
+    font-size: 50px;
+  }
+
+  #start-btn {
+    margin-top: 50px;
+  }
+
+  #submit-btn {
+    margin-top: 50px;
+  }
+
+  #result-page {
+    display: none;
+  }

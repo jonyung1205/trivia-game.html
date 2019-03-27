@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trivia Game</title>
+
+  <!-- Reset  -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <div id="start-page">
+    <h1>Geography Trivia Quiz</h1>
+    <button id="start-btn">Start</button>
+  </div>
+
+  <h1>This is based on geography of planet Earth all around the world including countries, oceans, and continents. You
+    have 60 seconds to complete the True or False quiz. Good Luck!</h1>
+
+  <!-- Questions -->
+  <div id="questionSection">
+    <h1> TRUE OR FALSE </h1>
+
+    <!-- Countdown Timer -->
+    <h1 id="countdownTimer"></h1>
+
+    <!-- True or False Questions / Radio Buttons -->
+    <h1>1. Congo River crosses the equator twice.</h1>
+    <input type="radio" name="q1" value="True">True
+    <input type="radio" name="q1" value="False">False
+
+    <h1>2. The Swiss flag is the only square flag in the world.</h1>
+    <input type="radio" name="q2" value="True">True
+    <input type="radio" name="q2" value="False">False
+
+    <h1>3. The Indian Ocean is the smallest ocean in the world. </h1>
+    <input type="radio" name="q3" value="True">True
+    <input type="radio" name="q3" value="False">False
+
+    <h1>4. Rio de Janeiro was the capital of the kingdom of Portugal. </h1>
+    <input type="radio" name="q4" value="True">True
+    <input type="radio" name="q4" value="False">False
+
+    <h1>5. United Kingdom is twice the size of New York. </h1>
+    <input type="radio" name="q5" value="True">True
+    <input type="radio" name="q5" value="False">False
+
+    <h1>6. London is the most famous tower is called Big Ben. </h1>
+    <input type="radio" name="q6" value="True">True
+    <input type="radio" name="q6" value="False">False
+
+    <h1>7. Texas has the largest population in the United States. </h1>
+    <input type="radio" name="q7" value="True">True
+    <input type="radio" name="q7" value="False">False
+
+    <h1>8. Loch Ness Lake, with its famous mysterious monster Nessie, was found on the Scottish Highlands. </h1>
+    <input type="radio" name="q8" value="True">True
+    <input type="radio" name="q8" value="False">False
+
+    <h1>9. The Taj Mahal is a statue of a famous mythical creature with the body of a lion and a human head. </h1>
+    <input type="radio" name="q9" value="True">True
+    <input type="radio" name="q9" value="False">False
+
+    <h1>10. The British Isles are an archipelago in northwestern Europe between the North Sea and the Atlantic Ocean.
+    </h1>
+    <input type="radio" name="q10" value="True">True
+    <input type="radio" name="q10" value="False">False
+
+    <br>
+
+    <button id="submit-btn">Submit</button>
+
+  </div>
+
+  <div id="results-page">
+
+    <h1>Skipped: <span id="skipped">0</span></h1>
+    <h1>Correct: <span id="correct">0</span></h1>
+    <h1>Incorrect: <span id="incorrect">0</span></h1>
+
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- JavaScript -->
+  <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
